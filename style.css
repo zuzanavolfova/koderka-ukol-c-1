@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    color: rgb(47, 47, 47);
+    line-height: 1.6;
 }
 
 .menu a {
@@ -29,12 +31,26 @@ body {
 
 .zivotopis img {
     height: 260px;
-    margin-left: 40px;
     border-radius: 0 50px 50px 0;
     box-shadow: 1px 1px rgb(226, 226, 226);
+    float: left;
+    overflow: auto;
+    margin: 0 40px 0 40px;
 }
 
 h2 {
     margin-left: 40px;
     text-align: left;
+    color: rgb(47, 47, 47)
+}
+
+.omne {
+    font-size: 18px;
+    text-align: left;
+    margin: 0 40px 0 40px;
+}
+
+.omne a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
 }
