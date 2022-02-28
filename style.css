@@ -2,6 +2,7 @@ body {
     margin: 0;
     color: rgb(47, 47, 47);
     line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu a {
@@ -34,12 +35,9 @@ body {
     border-radius: 0 50px 50px 0;
     box-shadow: 1px 1px rgb(226, 226, 226);
     float: left;
-    overflow: auto;
-    margin: 0 40px 0 40px;
 }
 
 h2 {
-    margin-left: 40px;
     text-align: left;
     color: rgb(47, 47, 47)
 }
@@ -47,10 +45,39 @@ h2 {
 .omne {
     font-size: 18px;
     text-align: left;
-    margin: 0 40px 0 40px;
+    margin: 0 0 0 40px;
+    background-color: rgb(247, 247, 247);
+    overflow: auto;
+}
+
+.omne h2 {
+    margin: 10px 0px 0px 200px;
 }
 
 .omne a {
     text-decoration: none;
     color: rgb(47, 47, 47);
+}
+
+.omneText {
+    margin: 20px 0px 0px 200px;
+}
+
+section {
+    margin: 0px 0 0 40px;
+}
+
+table {
+    border-spacing: 0;
+    margin-top: 40px;
+}
+
+th {
+    background-color: rgb(1, 117, 146);
+    color: white;
+    padding: 10px;
+}
+
+.rok {
+    text-align: center;
 }
