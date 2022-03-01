@@ -88,3 +88,11 @@ td {
 .vzdelani {
     text-align: left;
 }
+
+.omalovanky img {
+    width: 10%;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 1px 1px 1px rgb(224, 224, 224);
+    margin: 20px 1% 0 0;
+}
