@@ -3,6 +3,7 @@ body {
     color: rgb(47, 47, 47);
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .menu a {
@@ -49,10 +50,6 @@ h2 {
     margin: 40px 0 0 40px;
     background-color: rgb(247, 247, 247);
     overflow: auto;
-}
-
-.omne h2 {
-    margin: 10px 0px 0px 200px;
 }
 
 .omne a {
