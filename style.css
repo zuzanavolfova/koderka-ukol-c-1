@@ -43,15 +43,18 @@ h2,
 h3 {
     text-align: left;
     color: rgb(47, 47, 47);
+    margin-left: 40px
 }
 
 .text {
-    font-size: 18px;
     text-align: left;
     margin: 40px 0 0 0px;
     background-color: rgb(247, 247, 247);
     overflow: auto;
-    padding-left: 40px;
+}
+
+.grafikaText {
+    margin-left: 40px;
 }
 
 .omne a {
@@ -99,16 +102,9 @@ td {
     border-radius: 5px;
     border: 1px solid rgb(224, 224, 224);
     box-shadow: 1px 1px 1px rgb(224, 224, 224);
-    margin: 20px 1% 0 0;
-}
-
-.omalovanky,
-.pracovniListy,
-.sablony {
-    margin-left: 40px;
+    margin: 20px 1% 0 40px;
 }
 
 .blue {
     color: rgb(1, 117, 146);
-    ;
 }
