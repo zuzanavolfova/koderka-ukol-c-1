@@ -3,7 +3,6 @@ body {
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    margin: 0
 }
 
 .menu a {
@@ -39,22 +38,10 @@ body {
     margin-right: 20px;
 }
 
-h2,
-h3 {
-    text-align: left;
-    color: rgb(47, 47, 47);
-    margin-left: 40px
-}
-
 .text {
     text-align: left;
-    margin: 40px 0 0 0px;
     background-color: rgb(247, 247, 247);
     overflow: auto;
-}
-
-.uvodniText {
-    margin-left: 40px;
 }
 
 .omne a {
@@ -64,12 +51,12 @@ h3 {
 
 section {
     margin: 0;
+    padding-left: 40px;
 }
 
 table {
     border-spacing: 0;
     margin-top: 40px;
-    margin-left: 40px;
 }
 
 th {
@@ -108,8 +95,7 @@ td {
 .button {
     color: rgb(1, 117, 146);
     background-color: white;
-    box-shadow: 1px 1px rgb(224, 224, 224);
-    margin-left: 40px;
+    box-shadow: 1px rgb(224, 224, 224);
     border-radius: 5px;
 }
 
