@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+
+/*
+ulozeno pro pozdejsi pouziti:
+
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+*/
+
 body {
     color: rgb(47, 47, 47);
     line-height: 1.6;
