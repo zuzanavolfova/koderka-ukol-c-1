@@ -1,15 +1,12 @@
-* {
+html {
     box-sizing: border-box;
 }
 
-
-/*
-ulozeno pro pozdejsi pouziti
-
-html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
-
-*/
+*,
+ ::before,
+ ::after {
+    box-sizing: inherit;
+}
 
 body {
     color: rgb(47, 47, 47);
@@ -43,7 +40,7 @@ body {
     border-radius: 3px;
 }
 
-.zivotopis img {
+.text img {
     height: 260px;
     border-radius: 0 50px 50px 0;
     box-shadow: 1px 1px rgb(226, 226, 226);
@@ -108,7 +105,8 @@ td {
 .button {
     color: rgb(1, 117, 146);
     background-color: white;
-    box-shadow: 1px rgb(224, 224, 224);
+    border: 1px rgb(1, 117, 146);
+    box-shadow: 1px 2px 3px rgb(1, 117, 146);
     border-radius: 5px;
 }
 
